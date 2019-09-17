@@ -1,0 +1,25 @@
+@import "modules/videosection";
+
+
+.hidden{
+    display: none;
+}
+
+#container{
+    margin: 0 auto;
+    /* max-width: 1200px; */
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link, a:visited
+{
+ text-decoration:none;
+}
+
+a:hover, a:active
+{
+ text-decoration:none;
+}
