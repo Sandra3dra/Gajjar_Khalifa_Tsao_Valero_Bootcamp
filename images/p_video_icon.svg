@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="play_x5F_video" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 100.1 100.1" style="enable-background:new 0 0 100.1 100.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#393760;}
+</style>
+<g id="play_x5F_video_1_">
+	<g id="circle">
+		<path class="st0" d="M50.05,100.1C22.45,100.1,0,77.65,0,50.05S22.45,0,50.05,0s50.05,22.45,50.05,50.05S77.65,100.1,50.05,100.1z
+			 M50.05,3.67c-25.58,0-46.38,20.81-46.38,46.38c0,25.58,20.81,46.38,46.38,46.38c25.58,0,46.38-20.81,46.38-46.38
+			C96.43,24.47,75.63,3.67,50.05,3.67z"/>
+	</g>
+	<path id="play" class="st0" d="M36.07,50.05V33.24c0-3.16,3.43-5.14,6.17-3.56l14.56,8.4l14.56,8.4c2.74,1.58,2.74,5.54,0,7.12
+		L56.81,62l-14.56,8.4c-2.74,1.58-6.17-0.4-6.17-3.56V50.05H36.07z"/>
+</g>
+</svg>
