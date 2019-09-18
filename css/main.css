@@ -12,11 +12,31 @@
   margin-top: 60px;
 }
 
-.rows p {
+.servDesc {
   margin-top: 20px;
   margin-left: 30px;
   padding: 15px 10px;
   margin-right: 30px;
+}
+
+.servDetails {
+  justify-content: space-between;
+}
+
+.servDetails ul {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.servDetails ul h4 {
+  padding-bottom: 5px;
+}
+.servDetails ul li {
+  padding-top: 5px;
+  padding-right: 30px;
+}
+
+#projects {
+  margin-top: 60px;
 }
 
 .hidden {
@@ -59,8 +79,8 @@ body {
 
 .subLine {
   background-color: #393760;
-  margin-left: 20px;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 1px 100px;
@@ -81,6 +101,10 @@ h4 {
   font-weight: bold;
   color: #f1c0b3;
   font-size: 16px;
+}
+
+.rows {
+  display: flex;
 }
 
 /*# sourceMappingURL=main.css.map */
