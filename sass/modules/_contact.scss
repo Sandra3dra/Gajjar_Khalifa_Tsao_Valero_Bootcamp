@@ -1,0 +1,67 @@
+#contact {
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $imaginaPink;
+}
+
+.conDesc {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conDetails {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#contactForm {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    label {
+        color: #ffffff;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    input {
+        background-color: $imaginaPink;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left: 8px;
+        border-bottom: 1px $imaginaPurple solid;
+    }
+    ::placeholder {
+        color: $imaginaPurple;
+    }
+    select {
+        color: $imaginaPurple;
+        background-color: $imaginaPink;
+        margin-left: 30px;
+        margin-top: 10px;
+        border-bottom: 1px $imaginaPurple solid;
+    }
+    textarea {
+        background-color: $imaginaPink;
+        margin-left: 30px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-left: 5px;
+        margin-right: 30px;
+        border: 1px $imaginaPurple solid;
+    }
+}
+
+#submit {
+    border: none !important; 
+    margin-top: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    color: #ffffff;
+    margin-left: 30px !important;
+    margin-right: 30px;
+    background-color: $imaginaPurple !important;
+}
