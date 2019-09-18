@@ -41,6 +41,7 @@ body {
 .subHead {
     color: $imaginaPurple;
     font-size: 16px;
+    font-weight: bold;
     margin-left: 30px;
 }
 
@@ -50,12 +51,13 @@ body {
     margin-right: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 1px 100px;
+    padding: 1px 110px;
 }
 
 .pinkHead {
     color: $imaginaPink;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 20px;
     margin-left: 30px;
     padding-top: 3px; 
 }
@@ -72,4 +74,8 @@ h4 {
 
 .rows {
     display: flex;
+}
+
+a {
+    color: $imaginaPurple;
 }

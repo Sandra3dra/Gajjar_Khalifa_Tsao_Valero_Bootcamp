@@ -39,6 +39,23 @@
   margin-top: 60px;
 }
 
+.pjSubLine {
+  display: none;
+}
+
+.pjDesc {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pjText a {
+  margin-left: 30px;
+}
+.pjText a img {
+  width: 10%;
+}
+
 .hidden {
   display: none;
 }
@@ -74,6 +91,7 @@ body {
 .subHead {
   color: #393760;
   font-size: 16px;
+  font-weight: bold;
   margin-left: 30px;
 }
 
@@ -83,12 +101,13 @@ body {
   margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 1px 100px;
+  padding: 1px 110px;
 }
 
 .pinkHead {
   color: #ba7485;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 20px;
   margin-left: 30px;
   padding-top: 3px;
 }
@@ -105,6 +124,10 @@ h4 {
 
 .rows {
   display: flex;
+}
+
+a {
+  color: #393760;
 }
 
 /*# sourceMappingURL=main.css.map */
