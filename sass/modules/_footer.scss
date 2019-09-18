@@ -1,0 +1,21 @@
+#mainFooter {
+    background-color: $imaginaPurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+        color: #ffffff;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    a {
+        color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    img {
+        order: -1;
+    width: 40px;
+    padding-top: 30px;
+    }
+}

@@ -201,13 +201,13 @@ git <!DOCTYPE html>
 							<p class="subHead">CONTACT</p>
 							<div class="subLine"></div>
 						</div>
-						<h3 class="pinkHead">Say Hello!</h3>
+						<h3 class="roseHead">Say Hello!</h3>
 					</div>
 					<div class="cols spB">
-						<p>If you’d like to contact us, don't hesitate! We’d love to hear from you. We will respond to your messages as soon as possible.
+						<p class="conDesc">If you’d like to contact us, don't hesitate! We’d love to hear from you. We will respond to your messages as soon as possible.
 						</p>
 						<div id="conLeft"></div>
-						<p>hello@imagina.com<br>
+						<p class="conDetails">
 							Phone: 519-493-0222<br>
 							Toronto, ON, Canada
 						</p>
@@ -215,20 +215,26 @@ git <!DOCTYPE html>
 				</div>
 				<div id="conLine"></div>
 				<form class="cols" id="contactForm" action="form.php" method="POST">
- 					<label for="name">My name is</label>
-					<input type="text" required id="name" name="fullName">
-					<label for="email">Here is how to get back to me:</label>
-					<input type="text" required id="email" name="email" placeholder="phone,email,fax...">
-					<label for="choose">I'd like to </label>
-					<select id="choose">
-						<option value="Just saying hi!">Just saying hi!</option>
-						<option value="Get a quote">Get a quote</option>
-						<option value="Partner with IMAGINA">Partner with IMAGINA</option>
-						<option value="Give feedback">Give feedback</option>
-						<option value="Get a job">Get a job</option>
-					</select>
+ 					<div class="rows">
+						 <label for="name">My name is</label>
+						<input type="text" required id="name" name="fullName">
+					</div>
+					<div class="rows">
+						<label for="email">Here is how to get back to me:</label>
+						<input type="text" required id="email" name="email" placeholder="phone, email, fax...">
+					</div>
+					<div class="rows">
+						<label for="choose">I'd like to </label>
+						<select id="choose">
+							<option value="Just saying hi!">Just saying hi!</option>
+							<option value="Get a quote">Get a quote</option>
+							<option value="Partner with IMAGINA">Partner with IMAGINA</option>
+							<option value="Give feedback">Give feedback</option>
+							<option value="Get a job">Get a job</option>
+						</select>
+					</div>
 					<label for="comments">And I want to say...</label>
-					<textarea id="comments" name="comments" required placeholder="say something..."></textarea>
+					<textarea id="comments" name="comments" required placeholder="Say something..." cols="50" rows="9"></textarea>
 					<input type="submit" id="submit" value="SUBMIT">
 				</form>
 			</section>

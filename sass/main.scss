@@ -2,6 +2,8 @@
 @import 'modules/_about';
 @import 'modules/_services';
 @import 'modules/_projects';
+@import 'modules/_contact';
+@import 'modules/_footer';
 @import "modules/videosection";
 
 
@@ -78,4 +80,17 @@ h4 {
 
 a {
     color: $imaginaPurple;
+}
+
+.roseHead {
+    color: $imaginaRose;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 3px;
+}
+
+input, textarea, select {
+    border: none;
+    font-family: 'Poppins', sans-serif;
 }
