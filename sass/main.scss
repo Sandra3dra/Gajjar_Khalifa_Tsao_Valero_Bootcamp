@@ -1,3 +1,7 @@
+@import '_vars';
+@import 'modules/_about';
+@import 'modules/_services';
+@import 'modules/_projects';
 @import "modules/videosection";
 
 
@@ -22,4 +26,56 @@ a:link, a:visited
 a:hover, a:active
 {
  text-decoration:none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: $imaginaGray;
+    line-height: 20px;}
+
+.rowsH {
+    display: flex;
+}
+
+.subHead {
+    color: $imaginaPurple;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.subLine {
+    background-color: $imaginaPurple;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 110px;
+}
+
+.pinkHead {
+    color: $imaginaPink;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 3px; 
+}
+
+.pinkBox {
+    background-color: $imaginaLightRose;
+}
+
+h4 {
+    font-weight: bold;
+    color: $imaginaRose;
+    font-size: 16px;
+}
+
+.rows {
+    display: flex;
+}
+
+a {
+    color: $imaginaPurple;
 }
