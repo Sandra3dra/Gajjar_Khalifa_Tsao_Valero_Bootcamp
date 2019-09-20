@@ -225,14 +225,10 @@
 				<form class="cols" id="contactForm" action="form.php" method="POST">
  					<div class="rows">
 						 <label for="name">My name is</label>
-						<input type="text" required id="name" name="fullName">
+						<input type="text" required id="name" name="fullName" placeholder="...">
 					</div>
 					<div class="rows">
-						<label for="email">Here is how to get back to me:</label>
-						<input type="text" required id="email" name="email" placeholder="phone, email, fax...">
-					</div>
-					<div class="rows">
-						<label for="choose">I'd like to </label>
+						<label for="choose">And I'd like to </label>
 						<select id="choose">
 							<option value="Just saying hi!">Just saying hi!</option>
 							<option value="Get a quote">Get a quote</option>
@@ -241,8 +237,12 @@
 							<option value="Get a job">Get a job</option>
 						</select>
 					</div>
-					<label for="comments">And I want to say...</label>
-					<textarea id="comments" name="comments" required placeholder="Say something..." cols="50" rows="9"></textarea>
+					<div class="rows">
+						<label for="email">My email is</label>
+						<input type="text" required id="email" name="email" placeholder="...">
+					</div>
+					<label for="comments">Here are some details...</label>
+					<textarea id="comments" name="comments" required placeholder="Your message here..." cols="50" rows="9"></textarea>
 					<input type="submit" id="submit" value="SUBMIT">
 				</form>
 			</section>

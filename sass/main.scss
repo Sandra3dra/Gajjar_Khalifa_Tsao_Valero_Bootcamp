@@ -12,6 +12,11 @@ img, embed, object, video {
     max-width: 100%; 
 }
 
+#container {
+    max-width: 1250px;
+    min-width: 320px;
+}
+
 .hidden{
     display: none;
 }
