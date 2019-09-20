@@ -234,6 +234,7 @@ video {
 .pjText {
   margin-top: 20px;
 }
+
 .pjText a {
   margin-left: 30px;
 }
@@ -339,6 +340,106 @@ video {
   order: -1;
   width: 40px;
   padding-top: 30px;
+}
+
+#featureHead {
+  background-image: url(../images/hb1.jpg) no-repeat;
+}
+
+#hbTop, #hbtopL {
+  display: flex;
+  flex-direction: column;
+}
+#hbTop #hb2, #hbtopL #hb2 {
+  height: 280px;
+  widows: 260px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#hbtopR {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#CSandS {
+  display: flex;
+  flex-direction: row;
+}
+
+#CandS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#CandS #candsLine {
+  height: 45px;
+  border-left: 1px solid #000;
+}
+
+#hb3 {
+  width: 260px;
+  height: 280px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#pjSwitch {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 37px;
+  justify-content: space-between;
+}
+#pjSwitch #prevPj {
+  display: flex;
+  flex-direction: row;
+}
+#pjSwitch #prevPj p {
+  font-size: 13px;
+  margin-top: -3px;
+}
+#pjSwitch #prevPj #pjLA {
+  background-image: url(/images/left_p_arrow.svg);
+  background-repeat: no-repeat;
+  width: 13px;
+}
+#pjSwitch #prevPj:hover {
+  color: #ba7485;
+}
+#pjSwitch #prevPj:hover #pjLA {
+  background-image: url(/images/left_r_arrow.svg);
+  background-repeat: no-repeat;
+}
+#pjSwitch #nextPj {
+  display: flex;
+  flex-direction: row;
+}
+#pjSwitch #nextPj p {
+  font-size: 13px;
+  margin-top: -3px;
+}
+#pjSwitch #nextPj #pjRA {
+  background-image: url(/images/right_p_arrow.svg);
+  background-repeat: no-repeat;
+  width: 13px;
+}
+#pjSwitch #nextPj:hover {
+  color: #ba7485;
+}
+#pjSwitch #nextPj:hover #pjRA {
+  background-image: url(/images/right_r_arrow.svg);
+  background-repeat: no-repeat;
+}
+
+#prevPj img, #nextPj img {
+  width: 13px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 2px;
 }
 
 img, embed, object, video {
