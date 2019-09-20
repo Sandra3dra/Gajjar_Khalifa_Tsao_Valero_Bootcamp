@@ -1,7 +1,15 @@
 #mainHeader {
     background-color: $imaginaRose;
-    justify-content: space-between;
     padding-top: 30px;
+    // display: grid;
+    // grid-template-columns: repeat(5, 76px);
+    // grid-gap: auto;
+    
+}
+
+.socialLogoCon {
+    justify-content: space-between;
+    width: 60%;
 }
 
 #socialHead {
@@ -22,7 +30,9 @@
 }
 
 #mainNav {
-    margin-right: 20px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
     font-weight: bold;
     a {
         border-left: $imaginaPurple 2px solid;

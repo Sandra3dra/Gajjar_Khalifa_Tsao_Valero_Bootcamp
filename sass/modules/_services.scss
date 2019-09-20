@@ -1,5 +1,8 @@
 #services {
     margin-top: 60px;
+    .subLine {
+        width: 150px;
+    }
 }
 
 .servDesc {
@@ -10,7 +13,10 @@
 }
 
 .servDetails {
-    justify-content: space-between;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
 }
 
 .servDetails ul {

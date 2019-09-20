@@ -1,7 +1,11 @@
 #mainHeader {
   background-color: #f1c0b3;
-  justify-content: space-between;
   padding-top: 30px;
+}
+
+.socialLogoCon {
+  justify-content: space-between;
+  width: 60%;
 }
 
 #socialHead {
@@ -22,7 +26,9 @@
 }
 
 #mainNav {
-  margin-right: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
   font-weight: bold;
 }
 #mainNav a {
@@ -55,8 +61,6 @@ video {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 150px;
-  padding-right: 150px;
   line-height: 30px;
 }
 
@@ -65,21 +69,46 @@ video {
   padding-bottom: 20px;
 }
 
+#vol {
+  padding-top: 5px;
+}
+
+#volumeBar {
+  display: none;
+}
+
+.vIcon {
+  width: 30px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
 #botH {
   padding-top: 60px;
   background-color: white;
+}
+#botH .subLine {
+  width: 100px;
 }
 
 .brandDesc {
   padding: 30px;
 }
 
+#bhR {
+  width: 100%;
+  align-items: center;
+}
 #bhR img {
-  margin: 0 auto;
+  max-width: 531px;
 }
 
 #about {
   margin-top: 60px;
+}
+#about .subLine {
+  width: 50px;
 }
 
 #about img {
@@ -91,6 +120,9 @@ video {
 #services {
   margin-top: 60px;
 }
+#services .subLine {
+  width: 150px;
+}
 
 .servDesc {
   margin-top: 20px;
@@ -100,7 +132,9 @@ video {
 }
 
 .servDetails {
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
 .servDetails ul {
@@ -125,7 +159,6 @@ video {
 
 .pjDesc {
   margin-left: 30px;
-  margin-top: 20px;
   margin-bottom: 20px;
   padding-right: 30px;
 }
@@ -137,9 +170,13 @@ video {
   margin-left: 30px;
 }
 
-.pjImgR {
-  order: 2;
-  margin: 0 auto;
+.pjImg {
+  margin: 20px auto;
+}
+
+.rArrow {
+  width: 15px;
+  margin-left: 10px;
 }
 
 #contact {
@@ -208,6 +245,7 @@ video {
   margin-left: 30px !important;
   margin-right: 30px;
   background-color: #393760 !important;
+  cursor: pointer;
 }
 
 #mainFooter {
@@ -282,9 +320,9 @@ body {
 .pinkHead {
   color: #ba7485;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
   margin-left: 30px;
-  padding-top: 8px;
+  padding-top: 3px;
   padding-right: 30px;
   line-height: 25px;
 }

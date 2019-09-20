@@ -15,8 +15,6 @@ video {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
     line-height: 30px;
 }
 
@@ -25,9 +23,27 @@ video {
     padding-bottom: 20px;
 }
 
+#vol {
+    padding-top: 5px;
+}
+
+#volumeBar {
+    display: none;
+}
+
+.vIcon {
+    width: 30px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
 #botH {
     padding-top: 60px;
     background-color: white;
+    .subLine {
+        width: 100px;
+    }
 }
 
 .brandDesc {
@@ -35,7 +51,10 @@ video {
 }
 
 #bhR {
+    width: 100%;
+    align-items: center;
     img {
-        margin: 0 auto;
+        
+        max-width: 531px;
     }
 }
