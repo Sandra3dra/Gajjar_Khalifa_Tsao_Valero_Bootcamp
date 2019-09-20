@@ -1,4 +1,4 @@
-git <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -13,6 +13,14 @@ git <!DOCTYPE html>
 	<div id="container">
 		<h1 class="hidden">IMAGINA</h1>
 		<header id="mainHeader">
+			<div class="socialLogoCon rows">
+				<div id="socialHead" class="cols">
+					<a href="https://www.facebook.com/"><img src="images/p_fb.svg" alt="facebook"></a>
+					<a href="https://www.instagram.com/"><img src="images/p_instagram.svg" alt="instagram"></a>
+					<a href="https://www.twitter.com/"><img src="images/p_twitter.svg" alt="twitter"></a>
+				</div>
+				<div class="logo"><img src="images/imagina_logo.svg" alt="Imagina Logo"></div>
+			</div>
 			<nav id="mainNav">
 				<h2 class="hidden">Main Navigation</h2>
 				<ul>
@@ -26,25 +34,19 @@ git <!DOCTYPE html>
 		
 		<div id="sections">
 			<section id="home">
-				<div id="topH">
+				<div id="topH" class="cols">
 					<video autoplay controls id="video">
 						<source src="media/imagina.mp4" type="video/mp4">
 							Sorry, your browser doesn't support embedded videos:(
 					</video>
-					<div id="socialHead">
-					<a href="https://www.facebook.com/"><img src="images/p_fb.svg" alt="facebook"></a>
-					<a href="https://www.instagram.com/"><img src="images/p_instagram.svg" alt="instagram"></a>
-					<a href="https://www.twitter.com/"><img src="images/p_twitter.svg" alt="twitter"></a>
-					</div>
-					<div class="logo"><img src="images/imagina_logo.svg" alt="Imagina Logo"></div>
-					<p id="tagline">You imagine, We create.</p>
-					<div id="videoC">
+					<p id="tagline">You imagine,<br> We create.</p>
+					<div id="videoC" class="rows">
 						<div id="vol">
-							<img src="images/volume.svg" alt="volume icon" id="volume">
+							<img src="images/p_volume_icon.svg" alt="volume icon" id="volume" class="vIcon">
 							<input id="volumeBar" min="0" max="1" step="0.1" type="range">
 						</div>
-						<button id="playpause" title="play"><img src="images/play.svg" alt="play icon"></button>
-						<button id="rewind"><img src="images/rewind.svg" alt="rewind icon"></button>
+						<img src="images/p_pause_icon.svg" alt="play icon" id="playpause" title="play" class="vIcon">
+						<img src="images/p_reload_icon.svg" alt="rewind icon" id="rewind" class="vIcon">
 					</div>
 				</div>
 				<div id="botH">
@@ -56,12 +58,12 @@ git <!DOCTYPE html>
 							</div>
 							<h3 class="pinkHead">Our Brand Statement.</h3>
 						</div>
-						<p>We are a company of ignited minds, imaginative solutions and endless ideas. Coming from different parts of the world, we are a collaboration of multidisciplinary designers. We think beyond the predictable boundaries to give your brand the right vision. We are forever keen to enhance human experiences and thrive on giving the best solutions.
+						<p class="brandDesc">We are a company of ignited minds, imaginative solutions and endless ideas. Coming from different parts of the world, we are a collaboration of multidisciplinary designers. We think beyond the predictable boundaries to give your brand the right vision. We are forever keen to enhance human experiences and thrive on giving the best solutions.
 						</p>
 					</div>
 					<div id="bhR">
 						<img src="images/texture_imagina_logo.jpg" alt="imagina logo on board">
-					</div>
+					</div>	
 				</div>
 			</section>
 			<section id="about">
@@ -75,7 +77,7 @@ git <!DOCTYPE html>
 						<h3 class="pinkHead">Our team will create wonders for your brand.</h3>
 					</div>
 					<div class="cols">
-						<div>
+						<div class="memebrRow">
 							<div id="intro1">
 								<img src="images/luisa.jpg" alt="luisa valero" id="intro1Img">
 								<div id="intro1Hover"></div>
@@ -85,7 +87,7 @@ git <!DOCTYPE html>
 								<div id="intro2Hover"></div>
 							</div>
 						</div>
-						<div>
+						<div class="memebrRow">
 							<div id="intro3">
 								<img src="images/sandra.jpg" alt="sandra tsao" id="intro3Img">
 								<div id="intro3Hover"></div>
@@ -99,55 +101,61 @@ git <!DOCTYPE html>
 				</section>
 				<section id="services">
 					<div class="cols">
-						<div class="cols">
+						<div class="servH cols">
 							<div class="rowsH">
 								<p class="subHead">WHAT WE DO</p>
 								<div class="subLine"></div>
 							</div>
 							<h3 class="pinkHead">Our Services.</h3>
 						</div>
-						<div class="rows">
-							<p class="servDesc pinkBox">We are here to provide you stand out in the digital world. The combination of our beauty for design and your vision will ensure an appreciable end result.
+						<div class="servDescCon cols">
+							<p class="servDesc">We are here to provide you stand out in the digital world. The combination of our beauty for design and your vision will ensure an appreciable end result.
 							</p>
 						</div>
 					</div>
-					<div class="servDetails rows">
-						<ul class="cols"> 
-							<h4 class="lightPink">Design</h4>
-							<li>UX/UI Design</li>
-							<li>Art Direction</li>
-							<li>Interactive Design</li>
-							<li>Information Architechture</li>
-							<li>Motion Design</li>
-						</ul>
-						<ul class="cols"> 
-							<h4 class="lightPink">Branding</h4>
-							<li>Branding and Positioning</li>
-							<li>SEO Strategy</li>
-							<li>Social Media</li>
-							<li>Photography and Video</li>
-							<li>Roadmapping</li>
-						</ul>
-					</div>
-					<div class="servDetails rows">
-						<ul class="cols"> 
-							<h4 class="lightPink">Content</h4>
-							<li>Content Strategy</li>
-							<li>Copywriting</li>
-							<li>Illustration</li>
-						</ul>
-						<ul class="cols"> 
-							<h4 class="lightPink">Development</h4>
-							<li>Web Development</li>
-							<li>Application Development</li>
-							<li>E-Commerce</li>
-						</ul>
+					<div class="servDetails">
+							<ul class="cols">
+								<img sc="images/icon.svg" alt="design services icon" class="servIcon"> 
+								<h4 class="lightPink">Design</h4>
+								<li>UX/UI Design</li>
+								<li>Art Direction</li>
+								<li>Interactive Design</li>
+								<li>Information Architechture</li>
+								<li>Motion Design</li>
+							</ul>
+							<ul class="cols"> 
+								<img sc="images/icon.svg" alt="design services icon" class="servIcon"> 
+								<h4 class="lightPink">Branding</h4>
+								<li>Branding and Positioning</li>
+								<li>SEO Strategy</li>
+								<li>Social Media</li>
+								<li>Photography and Video</li>
+								<li>Roadmapping</li>
+							</ul>
+							<ul class="cols"> 
+								<img sc="images/icon.svg" alt="design services icon" class="servIcon"> 
+								<h4 class="lightPink">Content</h4>
+								<li>Content Strategy</li>
+								<li>Copywriting</li>
+								<li>Illustration</li>
+								<li>Social Media</li>
+								<li>Brand Positioning</li>
+							</ul>
+							<ul class="cols">
+								<img sc="images/icon.svg" alt="design services icon" class="servIcon">  
+								<h4 class="lightPink">Development</h4>
+								<li>Web Development</li>
+								<li>Application Development</li>
+								<li>E-Commerce</li>
+								<li>Content Management</li>
+								<li>Responsive Frameworkds</li>
+							</ul>
 					</div>
 				</section>
 			</section>
 			<section id="projects">
 				<h2 class="hidden">Projects of IMAGINA</h2>
-				<div class="rows">
+				<div>
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
@@ -156,28 +164,28 @@ git <!DOCTYPE html>
 							</div>
 							<h3 class="pinkHead">Healthy Blends.</h3>
 						</div>
+						<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						<div class="pjLine"></div>
-						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon"></a>
+						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"sass></a>
 					</div>
-					<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 				</div>
-				<div class="rows">
+				<div>
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
 								<p class="subHead">FIND THE BEST SWEETS</p>
 								<div class="subLine pjSubLine"></div>
 							</div>
-							<h3 class="pinkHead">Bakerology.</h3>
+							<h3 class="pinkHead">Bakerology London.</h3>
 						</div>
+						<img src="images/projectimg1.jpg" alt="project picture" class="pjImg pjImgR">
 						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						<div class="pjLine"></div>
-						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon"></a>
+						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
-					<img src="images/projectimg1.jpg" alt="project picture" class="pjImgR">
 				</div>
-				<div class="rows">
+				<div>
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
@@ -186,11 +194,11 @@ git <!DOCTYPE html>
 							</div>
 							<h3 class="pinkHead">New Muslimash</h3>
 						</div>
+						<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						<div class="pjLine"></div>
-						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon"></a>
+						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
-					<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 				</div>
 			</section>
 			<section id="contact">

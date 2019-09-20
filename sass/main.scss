@@ -1,4 +1,6 @@
 @import '_vars';
+@import 'modules/_header';
+@import 'modules/_home';
 @import 'modules/_about';
 @import 'modules/_services';
 @import 'modules/_projects';
@@ -6,14 +8,12 @@
 @import 'modules/_footer';
 @import "modules/videosection";
 
+img, embed, object, video {
+    max-width: 100%; 
+}
 
 .hidden{
     display: none;
-}
-
-#container{
-    margin: 0 auto;
-    /* max-width: 1200px; */
 }
 
 li{
@@ -34,7 +34,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: $imaginaGray;
-    line-height: 20px;}
+    line-height: 20px;
+}
 
 .rowsH {
     display: flex;
@@ -49,19 +50,21 @@ body {
 
 .subLine {
     background-color: $imaginaPurple;
-    margin-left: auto;
-    margin-right: 30px;
+    width: 200px;
+    height: 2px;
+    margin-left: 8px;
+    margin-right: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 1px 110px;
 }
 
 .pinkHead {
     color: $imaginaPink;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 30px;
     padding-top: 3px; 
+    padding-right: 30px;
+    line-height: 25px;
 }
 
 .pinkBox {
@@ -76,6 +79,11 @@ h4 {
 
 .rows {
     display: flex;
+}
+
+.cols {
+    display: flex;
+    flex-direction: column;
 }
 
 a {
