@@ -1,0 +1,41 @@
+#home {
+    background-color: $imaginaRose;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#tagline {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 30px;
+}
+
+#videoC {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#botH {
+    padding-top: 60px;
+    background-color: white;
+}
+
+.brandDesc {
+    padding: 30px;
+}
+
+#bhR {
+    img {
+        margin: 0 auto;
+    }
+}

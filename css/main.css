@@ -1,3 +1,83 @@
+#mainHeader {
+  background-color: #f1c0b3;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+#socialHead {
+  margin-left: 20px;
+}
+#socialHead img {
+  width: 25px;
+  height: 25px;
+  padding-bottom: 5px;
+  transition: all ease 1s;
+}
+#socialHead img:hover {
+  opacity: 0.2;
+}
+
+.logo img {
+  width: 76px;
+}
+
+#mainNav {
+  margin-right: 20px;
+  font-weight: bold;
+}
+#mainNav a {
+  border-left: #393760 2px solid;
+  transition: all 1s ease;
+  padding-left: 10px;
+}
+#mainNav a:hover {
+  color: #ba7485;
+}
+#mainNav a:active {
+  border-left: #ba7485 2px solid;
+  color: #ba7485;
+}
+
+#home {
+  background-color: #f1c0b3;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#tagline {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 30px;
+}
+
+#videoC {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#botH {
+  padding-top: 60px;
+  background-color: white;
+}
+
+.brandDesc {
+  padding: 30px;
+}
+
+#bhR img {
+  margin: 0 auto;
+}
+
 #about {
   margin-top: 60px;
 }
@@ -47,13 +127,19 @@
   margin-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-right: 30px;
 }
 
+.pjText {
+  margin-top: 20px;
+}
 .pjText a {
   margin-left: 30px;
 }
-.pjText a img {
-  width: 10%;
+
+.pjImgR {
+  order: 2;
+  margin: 0 auto;
 }
 
 #contact {
@@ -146,13 +232,12 @@
   padding-top: 30px;
 }
 
-.hidden {
-  display: none;
+img, embed, object, video {
+  max-width: 100%;
 }
 
-#container {
-  margin: 0 auto;
-  /* max-width: 1200px; */
+.hidden {
+  display: none;
 }
 
 li {
@@ -187,11 +272,11 @@ body {
 
 .subLine {
   background-color: #393760;
+  width: 200px;
+  height: 2px;
   margin-left: auto;
   margin-right: 30px;
   margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 1px 110px;
 }
 
 .pinkHead {
@@ -199,7 +284,9 @@ body {
   font-weight: bold;
   font-size: 20px;
   margin-left: 30px;
-  padding-top: 3px;
+  padding-top: 8px;
+  padding-right: 30px;
+  line-height: 25px;
 }
 
 .pinkBox {
@@ -214,6 +301,11 @@ h4 {
 
 .rows {
   display: flex;
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
 }
 
 a {

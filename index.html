@@ -1,4 +1,4 @@
-git <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -12,7 +12,13 @@ git <!DOCTYPE html>
 <body>
 	<div id="container">
 		<h1 class="hidden">IMAGINA</h1>
-		<header id="mainHeader">
+		<header id="mainHeader" class="rows">
+			<div id="socialHead" class="cols">
+				<a href="https://www.facebook.com/"><img src="images/p_fb.svg" alt="facebook"></a>
+				<a href="https://www.instagram.com/"><img src="images/p_instagram.svg" alt="instagram"></a>
+				<a href="https://www.twitter.com/"><img src="images/p_twitter.svg" alt="twitter"></a>
+			</div>
+			<div class="logo"><img src="images/imagina_logo.svg" alt="Imagina Logo"></div>
 			<nav id="mainNav">
 				<h2 class="hidden">Main Navigation</h2>
 				<ul>
@@ -26,17 +32,11 @@ git <!DOCTYPE html>
 		
 		<div id="sections">
 			<section id="home">
-				<div id="topH">
+				<div id="topH" class="cols">
 					<video autoplay controls id="video">
 						<source src="media/imagina.mp4" type="video/mp4">
 							Sorry, your browser doesn't support embedded videos:(
 					</video>
-					<div id="socialHead">
-					<a href="https://www.facebook.com/"><img src="images/p_fb.svg" alt="facebook"></a>
-					<a href="https://www.instagram.com/"><img src="images/p_instagram.svg" alt="instagram"></a>
-					<a href="https://www.twitter.com/"><img src="images/p_twitter.svg" alt="twitter"></a>
-					</div>
-					<div class="logo"><img src="images/imagina_logo.svg" alt="Imagina Logo"></div>
 					<p id="tagline">You imagine, We create.</p>
 					<div id="videoC">
 						<div id="vol">
@@ -56,7 +56,7 @@ git <!DOCTYPE html>
 							</div>
 							<h3 class="pinkHead">Our Brand Statement.</h3>
 						</div>
-						<p>We are a company of ignited minds, imaginative solutions and endless ideas. Coming from different parts of the world, we are a collaboration of multidisciplinary designers. We think beyond the predictable boundaries to give your brand the right vision. We are forever keen to enhance human experiences and thrive on giving the best solutions.
+						<p class="brandDesc">We are a company of ignited minds, imaginative solutions and endless ideas. Coming from different parts of the world, we are a collaboration of multidisciplinary designers. We think beyond the predictable boundaries to give your brand the right vision. We are forever keen to enhance human experiences and thrive on giving the best solutions.
 						</p>
 					</div>
 					<div id="bhR">
@@ -147,7 +147,7 @@ git <!DOCTYPE html>
 			</section>
 			<section id="projects">
 				<h2 class="hidden">Projects of IMAGINA</h2>
-				<div class="rows">
+				<div>
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
@@ -156,28 +156,28 @@ git <!DOCTYPE html>
 							</div>
 							<h3 class="pinkHead">Healthy Blends.</h3>
 						</div>
+						<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						<div class="pjLine"></div>
-						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon"></a>
+						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
-					<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 				</div>
-				<div class="rows">
+				<div>
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
 								<p class="subHead">FIND THE BEST SWEETS</p>
 								<div class="subLine pjSubLine"></div>
 							</div>
-							<h3 class="pinkHead">Bakerology.</h3>
+							<h3 class="pinkHead">Bakerology London.</h3>
 						</div>
+						<img src="images/projectimg1.jpg" alt="project picture" class="pjImgR">
 						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						<div class="pjLine"></div>
-						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon"></a>
+						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
-					<img src="images/projectimg1.jpg" alt="project picture" class="pjImgR">
 				</div>
-				<div class="rows">
+				<div>
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
@@ -186,11 +186,11 @@ git <!DOCTYPE html>
 							</div>
 							<h3 class="pinkHead">New Muslimash</h3>
 						</div>
+						<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 						<div class="pjLine"></div>
-						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon"></a>
+						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
-					<img src="images/projectimg1.jpg" alt="project picture" class="pjImg">
 				</div>
 			</section>
 			<section id="contact">

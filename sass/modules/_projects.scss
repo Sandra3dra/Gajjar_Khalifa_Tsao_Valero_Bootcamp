@@ -10,15 +10,25 @@
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-right: 30px;
 }
 
 .pjText {
     margin-top: 20px;
+    a {
+        margin-left: 30px;
+    }
 }
 
-.pjText a {
-    margin-left: 30px;
+
+
+.rArrow {
+    width: 20px;
+    height: 20px;
+    display: none;
 }
+
+
 
 
 
