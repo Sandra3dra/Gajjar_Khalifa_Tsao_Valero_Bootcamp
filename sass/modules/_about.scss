@@ -3,10 +3,21 @@
     .subLine {
         width: 50px;
     }
+    .pinkHead {
+        max-width: 300px;
+    }
 }
 
 #about img {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto; 
+}
+
+@media screen and (min-width: 767px) {
+    .memberRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

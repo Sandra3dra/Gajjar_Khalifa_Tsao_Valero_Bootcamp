@@ -13,9 +13,8 @@
 }
 
 .servDetails {
-    // justify-content: space-between;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
 
@@ -26,6 +25,38 @@
     li { 
         padding-top: 5px;
         padding-right: 30px; 
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .servH {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .servDescCon {
+        align-items: center;
+    }
+    .servDesc {
+        text-align: center;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+    .servDetails {
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        ul {
+            padding-right: 0;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .servDesc {
+        padding-left: 250px;
+        padding-right: 250px;
     }
 }
 
