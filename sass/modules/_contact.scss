@@ -3,6 +3,9 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $imaginaPink;
+    .subLine {
+        width: 30px;
+    }
 }
 
 .conDesc {
@@ -64,4 +67,5 @@
     margin-left: 30px !important;
     margin-right: 30px;
     background-color: $imaginaPurple !important;
+    cursor: pointer;
 }
