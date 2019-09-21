@@ -1,4 +1,6 @@
 # Bootcamp
+![Imagina Logo](/images/imagina_logo.svg)
+
 ## Imagina
 You Imagine, We Create.
 
