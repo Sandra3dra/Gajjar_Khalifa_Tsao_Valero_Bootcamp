@@ -3,6 +3,9 @@
     .subLine {
         width: 150px;
     }
+    background-color: $imaginaLightRose2;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .servDesc {
@@ -18,8 +21,12 @@
     grid-gap: 10px;
 }
 
+.servIcon {
+    display: none;
+}
+
 .servDetails ul {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 30px;
     h4 { padding-bottom: 5px; }
     li { 
@@ -44,11 +51,25 @@
     .servDetails {
         grid-template-columns: repeat(4, 1fr);
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        // margin-left: auto;
+        // margin-right: auto;
         ul {
-            padding-right: 0;
+            margin-left: auto;
+            margin-right: auto;
         }
+        h4 {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            text-align: center !important;
+        }
+        li {
+            padding-right: 0 !important;
+        }
+    }
+    .servIcon {
+        display: block;
+        width: 45px;
+        margin-bottom: 8px;
     }
 
 }

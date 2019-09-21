@@ -6,8 +6,8 @@
 @import 'modules/_projects';
 @import 'modules/_contact';
 @import 'modules/_footer';
-@import "modules/videosection";
-@import "modules/feature";
+@import 'modules/videosection';
+@import 'modules/_feature';
 
 html {
     scroll-behavior: smooth;
@@ -15,6 +15,19 @@ html {
 
 img, embed, object, video {
     max-width: 100%; 
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#container {
+    width: 100%;
+    max-width: 1360px;
+    min-width: 320px;
 }
 
 .hidden{
@@ -68,7 +81,7 @@ body {
     font-size: 24px;
     margin-left: 30px;
     padding-top: 3px; 
-    padding-right: 30px;
+    // padding-right: 30px;
     line-height: 25px;
 }
 
@@ -78,7 +91,7 @@ body {
 
 h4 {
     font-weight: bold;
-    color: $imaginaRose;
+    color: $imaginaPink;
     font-size: 16px;
 }
 
@@ -103,8 +116,8 @@ a {
     padding-top: 3px;
 }
 
-.lightPink {
-    color: $imaginaRose;
+.servSubH {
+    color: $imaginaPink;
     font-weight: bold;
     font-size: 17px;
     margin-bottom: 4px;
