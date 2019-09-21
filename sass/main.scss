@@ -6,14 +6,23 @@
 @import 'modules/_projects';
 @import 'modules/_contact';
 @import 'modules/_footer';
-@import "modules/videosection";
+@import 'modules/videosection';
+@import 'modules/_feature';
 
 img, embed, object, video {
     max-width: 100%; 
 }
 
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 #container {
-    max-width: 1250px;
+    width: 100%;
+    max-width: 1360px;
     min-width: 320px;
 }
 
