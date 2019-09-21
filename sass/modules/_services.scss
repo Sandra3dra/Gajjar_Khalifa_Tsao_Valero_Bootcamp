@@ -3,6 +3,9 @@
     .subLine {
         width: 150px;
     }
+    background-color: $imaginaLightRose2;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .servDesc {
@@ -23,7 +26,7 @@
 }
 
 .servDetails ul {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 30px;
     h4 { padding-bottom: 5px; }
     li { 
@@ -62,6 +65,11 @@
         li {
             padding-right: 0 !important;
         }
+    }
+    .servIcon {
+        display: block;
+        width: 45px;
+        margin-bottom: 8px;
     }
 
 }

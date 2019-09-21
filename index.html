@@ -115,8 +115,8 @@
 					</div>
 					<div class="servDetails">
 							<ul class="cols">
-								<img sc="images/icon.svg" alt="design services icon" class="servIcon"> 
-								<h4 class="lightPink">Design</h4>
+								<img src="images/design_icon.svg" alt="design services icon" class="servIcon"> 
+								<h4 class="servSubH">Design</h4>
 								<li>UX/UI Design</li>
 								<li>Art Direction</li>
 								<li>Interactive Design</li>
@@ -124,8 +124,8 @@
 								<li>Motion Design</li>
 							</ul>
 							<ul class="cols"> 
-								<img sc="images/icon.svg" alt="design services icon" class="servIcon"> 
-								<h4 class="lightPink">Branding</h4>
+								<img src="images/branding_icon.svg" alt="design services icon" class="servIcon"> 
+								<h4 class="servSubH">Branding</h4>
 								<li>Branding and Positioning</li>
 								<li>SEO Strategy</li>
 								<li>Social Media</li>
@@ -133,8 +133,8 @@
 								<li>Roadmapping</li>
 							</ul>
 							<ul class="cols"> 
-								<img sc="images/icon.svg" alt="design services icon" class="servIcon"> 
-								<h4 class="lightPink">Content</h4>
+								<img src="images/content_icon.svg" alt="design services icon" class="servIcon"> 
+								<h4 class="servSubH">Content</h4>
 								<li>Content Strategy</li>
 								<li>Copywriting</li>
 								<li>Illustration</li>
@@ -142,8 +142,8 @@
 								<li>Brand Positioning</li>
 							</ul>
 							<ul class="cols">
-								<img sc="images/icon.svg" alt="design services icon" class="servIcon">  
-								<h4 class="lightPink">Development</h4>
+								<img src="images/development_icon.svg" alt="design services icon" class="servIcon">  
+								<h4 class="servSubH">Development</h4>
 								<li>Web Development</li>
 								<li>Application Development</li>
 								<li>E-Commerce</li>
@@ -155,7 +155,7 @@
 			</section>
 			<section id="projects">
 				<h2 class="hidden">Projects of IMAGINA</h2>
-				<div>
+				<div class="pjTextCon">
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
@@ -169,8 +169,9 @@
 						<div class="pjLine"></div>
 						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"sass></a>
 					</div>
+					<img src="images/projectimg1.jpg" alt="project picture" class="pjImgDT">
 				</div>
-				<div>
+				<div class="pjTextCon">
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
@@ -184,8 +185,9 @@
 						<div class="pjLine"></div>
 						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
+					<img src="images/projectimg1.jpg" alt="project picture" class="pjImgDT">
 				</div>
-				<div>
+				<div class="pjTextCon">
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
@@ -199,6 +201,7 @@
 						<div class="pjLine"></div>
 						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
+					<img src="images/projectimg1.jpg" alt="project picture" class="pjImgDT">
 				</div>
 			</section>
 			<section id="contact">
@@ -214,18 +217,17 @@
 					<div class="cols spB">
 						<p class="conDesc">If you’d like to contact us, don't hesitate! We’d love to hear from you. We will respond to your messages as soon as possible.
 						</p>
-						<div id="conLeft"></div>
+						<div id="conLine"></div>
 						<p class="conDetails">
 							Phone: 519-493-0222<br>
 							Toronto, ON, Canada
 						</p>
 					</div>
 				</div>
-				<div id="conLine"></div>
 				<form class="cols" id="contactForm" action="form.php" method="POST">
- 					<div class="rows">
+ 					<div class= "rows">
 						 <label for="name">My name is</label>
-						<input type="text" required id="name" name="fullName" placeholder="...">
+						<input class="inputField" type="text" required id="name" name="fullName" placeholder="...">
 					</div>
 					<div class="rows">
 						<label for="choose">And I'd like to </label>
@@ -239,7 +241,7 @@
 					</div>
 					<div class="rows">
 						<label for="email">My email is</label>
-						<input type="text" required id="email" name="email" placeholder="...">
+						<input class="inputField" type="text" required id="email" name="email" placeholder="...">
 					</div>
 					<label for="comments">Here are some details...</label>
 					<textarea id="comments" name="comments" required placeholder="Your message here..." cols="50" rows="9"></textarea>

@@ -81,7 +81,7 @@ body {
     font-size: 24px;
     margin-left: 30px;
     padding-top: 3px; 
-    padding-right: 30px;
+    // padding-right: 30px;
     line-height: 25px;
 }
 
@@ -91,7 +91,7 @@ body {
 
 h4 {
     font-weight: bold;
-    color: $imaginaRose;
+    color: $imaginaPink;
     font-size: 16px;
 }
 
@@ -116,8 +116,8 @@ a {
     padding-top: 3px;
 }
 
-.lightPink {
-    color: $imaginaRose;
+.servSubH {
+    color: $imaginaPink;
     font-weight: bold;
     font-size: 17px;
     margin-bottom: 4px;

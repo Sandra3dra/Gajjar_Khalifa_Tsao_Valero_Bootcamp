@@ -19,3 +19,22 @@
     padding-top: 30px;
     }
 }
+
+@media screen and (min-width: 767px) {
+    #mainFooter {
+        flex-direction: row;
+        padding: 30px 40px;
+        img {
+            order: 3;
+            margin-right: 0;
+            margin-left: 20px;
+        }
+        img, a, h3 {
+            padding: 0;
+        }
+        a {
+            margin-left: auto;
+        }
+
+    }
+}
