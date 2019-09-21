@@ -26,6 +26,12 @@
     }
 }
 
+#healthyB {
+    .subLine{
+        display: none;
+    }
+}
+
 #hbtopR{
     @include column();
     @include mar30();
@@ -57,6 +63,7 @@
     justify-content: space-between;
     #prevPj{
         @include row();
+        // transition: all 1s ease;
         p{
             font-size: 13px;
             margin-top: -3px;
@@ -76,6 +83,7 @@
     }
     #nextPj{
         @include row();
+        // transition: all 1s ease;
         p{
             font-size: 13px;
             margin-top: -3px;
@@ -86,7 +94,7 @@
             width: 13px;
         }
         &:hover{
-            color: #ba7485;
+            color: $imaginaPink;
         }
         &:hover #pjRA{
             background-image: url(/images/right_r_arrow.svg);
@@ -101,5 +109,11 @@
     padding-right: 2px;
     margin-bottom: 2px;
 }
+
+#hbMain {
+    margin-top: 45px;
+}
+
+
 
 
