@@ -372,6 +372,10 @@ video {
   margin-right: 30px;
 }
 
+#healthyB .subLine {
+  display: none;
+}
+
 #hbtopR {
   display: flex;
   flex-direction: column;
@@ -455,6 +459,14 @@ video {
   padding-left: 2px;
   padding-right: 2px;
   margin-bottom: 2px;
+}
+
+#hbMain {
+  margin-top: 45px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 img, embed, object, video {
@@ -553,9 +565,16 @@ a {
 .roseHead {
   color: #f1c0b3;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 17px;
   margin-left: 30px;
   padding-top: 3px;
+}
+
+.lightPink {
+  color: #f1c0b3;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 4px;
 }
 
 input, textarea, select {
