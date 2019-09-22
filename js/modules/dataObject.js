@@ -23,7 +23,7 @@ export default {
     luisa: {
         avatar: "luisa_2.jpg",
         name: "Luisa Valero",
-        role: "BAND, UI & UX DESIGNER",
-        bio: "some text"
+        role: "BRAND, UI & UX DESIGNER",
+        bio: "Luisa is capable of creating new graphics and innovative solutions for any visual communication problem. She has abilities and competences to provide high-quality design for various industry sectors including business, marketing, and organizations, as well as web design, UI & UX, design, branding and strategy, and print.  She is fluent in English and Spanish, ASL and cryptophasia."
     }
 }
