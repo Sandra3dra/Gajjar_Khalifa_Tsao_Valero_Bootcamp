@@ -10,7 +10,7 @@ export default {
         avatar: "mariam_2.jpg",
         name: "Mariam Khalifa",
         role: "WEB DEVELOPER",
-        bio: "some text"
+        bio: "Mariam is an interactive media design student. She yearns to become a digital media developer and artist. Her skills include photography, illustration, animation in addition to working with video and audio. When she isn’t glued to her computer with a cup of coffee by her side, you’ll find her reading or writing in her home in London, Ontario."
     },
 
     kahani: {
