@@ -8,16 +8,34 @@
     }
 }
 
-#about img {
+.memberCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamImg {
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto; 
+    width: 80%;
+}
+
+.memberBio {
+    display: none;
 }
 
 @media screen and (min-width: 767px) {
     .memberRow {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+    .memberCon {
+        align-items: center;
+    }
+    .teamImg {
+        width: 100%;
+    }
+    .memberBio {
+        display: block;
     }
 }

@@ -141,17 +141,38 @@ video {
   max-width: 300px;
 }
 
-#about img {
+.memberCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamImg {
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+}
+
+.memberBio {
+  display: none;
 }
 
 @media screen and (min-width: 767px) {
   .memberRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+  }
+
+  .memberCon {
+    align-items: center;
+  }
+
+  .teamImg {
+    width: 100%;
+  }
+
+  .memberBio {
+    display: block;
   }
 }
 #services {
@@ -230,6 +251,8 @@ video {
     display: block;
     width: 45px;
     margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -368,7 +391,7 @@ video {
 }
 
 .conDesc {
-  color: #ffffff;
+  color: #fae9e5;
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
@@ -377,7 +400,7 @@ video {
 .conDetails {
   margin-left: 30px;
   margin-top: 20px;
-  color: #ffffff;
+  color: #fae9e5;
 }
 
 #contactForm {
@@ -389,7 +412,7 @@ video {
   font-size: 12px;
 }
 #contactForm label {
-  color: #ffffff;
+  color: #fae9e5;
   margin-top: 20px;
 }
 #contactForm input {
