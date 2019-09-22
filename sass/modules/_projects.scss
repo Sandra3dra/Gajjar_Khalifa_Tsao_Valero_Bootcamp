@@ -8,9 +8,24 @@
     flex-direction: row;
 }
 
+@mixin marNone() {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 @mixin mar30() {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+@mixin mar40() {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@mixin mar50() {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #projects {
@@ -21,12 +36,17 @@
     display: none;
 }
 
+.pjTextCon {
+    @include column;
+}
+
 .pjDesc {
     @include mar30;
     margin-bottom: 20px;
 }
 
 .pjText {
+    @include column;
     margin-top: 20px;
     a {
         @include mar30;
@@ -54,87 +74,84 @@
     display: none;
 }
 
+
 @media screen and (min-width: 767px) {
     .pjTextCon {
-        display: flex;
-        justify-content: space-between;
-    }
-    .pjText {
-        margin-top: 60px;
-        width: 50%;
+        @include row;
+        @include mar40;
+        margin-bottom: 30px;
+        // justify-content: center;
+        align-items: center;
         .pjImg {
             display: none;
         }
-        .subHead {
-            margin-right: 0 !important;
-            margin-left: 0;
-            margin-top: 60px;
-        }
-        .pjSubLine {
-            display: block;
-            margin-top: 70px;
-            order: -1;
-            background-color: $imaginaPurple;
-            width: 30px;
-            height: 2px;
-            margin-left: auto;
-            margin-right: 8px;
-        }
-        .pinkHead {
-            margin-right: 0 !important;
-            margin-left: auto !important;
-            font-size: 30px;
-        }
-        .pjDesc {
-            margin-right: 0 !important;
-            padding-left: 130px;
-            padding-right: 0 !important;
-            margin-top: 20px;
+        .pjText {
+            @include column;
+            justify-content: flex-end;
+            margin-right: 30px;
+            width: 45%;
+            .pjTH{
+                text-align: right;
+                h3 {
+                    @include marNone;
+                }
+            }
+            .pjTH .rowsH{
+                justify-content: flex-end;
+            }
+            .pjDesc {
+                text-align: right;
+                @include marNone;
+                margin-top: 20px;
+                width: 80%;
+                align-self: flex-end;
+            }
+            a {
+                width: 30%;
+                // display: flex;
+                @include marNone;
+                align-self: flex-end;
+                margin-bottom: 20px;
+            }
         }
     }
-    .pjLine {
-        height: 60px;
-        width: 2px;
-        background-color: $imaginaPurple;
-        margin-left: auto;
-        margin-right: 0;
-    }
-    .pjText a {
-        margin-left: auto !important;
-        margin-right: 0 !important; 
-        margin-top: 30px;
-    }
-    .pjImgDT {
-        display: block;
-        margin: 60px 30px;
-    }
-    .pjTextConR {
+    #projects div:nth-child(3) {
         .pjImgDT {
             order: -1;
         }
-        .subHead {
-            order: -1;
-            margin-left: 0;
+        .pjText {
+            margin-left: 30px;
         }
-        .pjSubLine {
-            margin-left: 8px;
-            width: 50px;
+        .pjTH{
+            text-align: left;
+            // h3 {
+            //     @include marNone;
+            // }
         }
-        .pinkHead {
-            margin-left: 0 !important;
+        .pjTH .rowsH{
+            justify-content: flex-start;
+        }
+        .rowsH p {
+            margin-left: 0px;
         }
         .pjDesc {
-            margin-left: 0 !important;
-            padding-left: 0;
-            padding-right: 130px !important;
-        }
-        .pjLine {
-            margin-left: 0;
+            text-align: left;
+            @include marNone;
+            margin-top: 20px;
+            align-self: flex-start;
         }
         a {
-            margin-left: 0 !important;
+            width: 30%;
+            // display: flex;
+            @include marNone;
+            align-self: flex-start;
         }
     }
+    .pjImgDT {
+        display: flex;
+        width: 345px;
+    }
+    
 }
 
 
