@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    // width: 90%;
     .cols {
         width: 122px;
         margin-top: 30px;
@@ -62,6 +63,27 @@
     h4 { padding-bottom: 5px; }
     li { 
         padding-top: 5px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .servDetails {
+        @include mar30;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        // width: 90%;
+        .cols {
+            // width: 90%;
+            margin-top: 40px;
+            // text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .servIcon {
+            margin-left: 40px;
+        }
     }
 }
 

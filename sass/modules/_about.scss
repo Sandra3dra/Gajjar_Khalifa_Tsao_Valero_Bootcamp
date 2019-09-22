@@ -8,9 +8,24 @@
     flex-direction: row;
 }
 
+@mixin marNone() {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 @mixin mar30() {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+@mixin mar40() {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@mixin mar50() {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #about {
@@ -23,16 +38,31 @@
     }
 }
 
-#about img {
+.memCols {
+    // @include column;
+    align-items: center;
+}
+
+.teamImg {
     margin-top: 30px;
-    @include mar30;
+    // @include mar30;
     width: 260px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 640px) {
     .memberRow {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        // @include mar40;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .teamImg {
+        margin-top: 40px;
+        // @include mar30;
+        width: 330px;
     }
 }

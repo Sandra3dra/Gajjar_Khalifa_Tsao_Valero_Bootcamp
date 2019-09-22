@@ -8,9 +8,24 @@
     flex-direction: row;
 }
 
+@mixin marNone() {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 @mixin mar30() {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+@mixin mar40() {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@mixin mar50() {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #home {
@@ -128,7 +143,7 @@ video {
         width: 100px;
     }
     .brandDesc {
-        padding-top: 60%;
+        padding-top: 90%;
         @include mar30;
     }
 }
@@ -139,23 +154,118 @@ video {
     margin-top: 70px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 470px) {
+    #botH {
+        margin-top: 25%;
+    }
+    #tagline {
+        font-size: 17px;
+        padding-top: 50px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+
+    #botH {
+        margin-top: 10%;
+    }
+    #bhL {
+        .brandDesc {
+            padding-top: 20px;
+        }
+        .subLine {
+            width: 50px;
+        }
+    }
+    #bhR {
+        position: relative;
+        margin-top: 20px;
+        @include mar40;
+    }
+    #socialHead {
+        top: 40px;
+        left: 40px;
+        img {
+            padding-bottom: 5px;
+        }
+        #fb {
+            width: 11px;
+            margin-left: 7px;
+        }
+        #inst {
+            width: 23px;
+        }
+        #twi {
+            width: 24px;
+        }
+    }
+    .logo {
+        img {
+            width: 106px;
+            margin-top: 40px;
+        }
+    }
+    #tagline {
+        font-size: 23px;
+        padding-top: 90px;
+        line-height: 30px;
+    }
+    
+    #vol {
+        padding-top: 7px;
+    }
+    
+    #volumeBar {
+        width: 90px;
+        margin-bottom: 7px;
+    }
+    
+    .vIcon {
+        width: 40px;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    #tagline {
+        padding-top: 120px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
     #botH {
         display: flex;
         flex-direction: row;
+        margin-top: 15%;
+        @include mar40;
         .subLine {
             margin-left: 8px;
-            width: 105px;
+            width: 50px;
         }
     }
     #bhL {
         width: 60%;
+        @include marNone;
+        margin-right: 20px;
+        width: 312px;
+        .brandDesc {
+            max-width: 450px;
+            @include marNone;
+        }
+        .pinkHead, .subHead {
+            @include marNone;
+        }
+        .pinkHead {
+            letter-spacing: -2px;
+        }
     }
     #bhR {
-        margin-left: 30px;
-        margin-right: 30px;
+        @include marNone;
+        width: 50%;
     }
-    .brandDesc {
-        max-width: 450px;
-    }
+    
 } 
