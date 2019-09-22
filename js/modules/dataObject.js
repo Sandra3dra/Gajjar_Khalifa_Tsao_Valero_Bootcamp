@@ -17,7 +17,9 @@ export default {
         avatar: "kahani_2.jpg",
         name: "Kahani Gajjar",
         role: "UI & UX DESIGNER",
-        bio: "some text"
+        bio: "
+        Kahani is a design enthusiast with strong observation skills ; she enjoys being a part of Interior and Media Design Industry along with food, fashion and lifestyle. Through the years, she has gone through a design process by experiencing different cultures and architecture which now has become a part of her thought process. Designing for people by keeping the user experience in mind is her passion.
+        "
     },
 
     luisa: {
