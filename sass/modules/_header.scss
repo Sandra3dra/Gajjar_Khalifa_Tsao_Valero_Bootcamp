@@ -1,20 +1,14 @@
 #mainHeader {
     width: 100%;
     background-color: $imaginaRose;
-    padding-top: 30px;
-    // display: grid;
-    // grid-template-columns: repeat(5, 76px);
-    // grid-gap: auto;
-    
-}
-
-.socialLogoCon {
-    justify-content: space-between;
-    width: 60%;
+    padding-top: 30px; 
 }
 
 #socialHead {
-    margin-left: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    // margin-left: 20px;
     img {
         width: 25px;
         height: 25px;
@@ -26,8 +20,11 @@
     }
 }
 
-.logo img {
-    width: 76px;
+.logo {
+    margin: 0 auto;
+    img {
+        width: 76px;
+    }
 }
 
 #mainNav {
