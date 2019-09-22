@@ -13,18 +13,21 @@
 	<div id="container" class="cols">
 		<h1 class="hidden">IMAGINA</h1>
 		<header id="mainHeader" class="rows">
-			<!-- <div class="socialLogoCon rows"> -->
-				
-			<!-- </div> -->
-			<nav id="mainNav">
-				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#projects">Our Work</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+				<div id="socialHead" class="cols">
+					<a href="https://www.facebook.com/"><img src="images/p_fb.svg" alt="facebook"></a>
+					<a href="https://www.instagram.com/"><img src="images/p_instagram.svg" alt="instagram"></a>
+					<a href="https://www.twitter.com/"><img src="images/p_twitter.svg" alt="twitter"></a>
+				</div>
+				<div class="logo"><img src="images/imagina_logo.svg" alt="Imagina Logo"></div>
+				<nav id="mainNav">
+					<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Our Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
 		</header>
 		
 		<div id="sections">
@@ -34,12 +37,6 @@
 						<source src="media/imagina_video.mp4" type="video/mp4">
 							Sorry, your browser doesn't support embedded videos:(
 					</video>
-					<div id="socialHead" class="cols">
-						<a href="https://www.facebook.com/"><img id="fb" src="images/p_fb.svg" alt="facebook"></a>
-						<a href="https://www.instagram.com/"><img id="inst" src="images/p_instagram.svg" alt="instagram"></a>
-						<a href="https://www.twitter.com/"><img id="twi" src="images/p_twitter.svg" alt="twitter"></a>
-					</div>
-					<div class="logo"><img src="images/imagina_logo.svg" alt="Imagina Logo"></div>
 					<p id="tagline">You imagine,<br> We create.</p>
 					<div id="videoC" class="rows">
 						<div id="vol" class="hidden">
@@ -77,25 +74,45 @@
 						</div>
 						<h3 class="pinkHead">Our team will create wonders for your brand.</h3>
 					</div>
-					<div class="cols memCols">
+					<div class="teamCon cols">
 						<div class="memberRow">
-							<div id="intro1">
+							<div id="intro1" class="memberCon">
 								<img src="images/sandra_pic3.jpg" alt="sandra tsao" id="sandraImg" class="teamImg">
-								<div id="sandraBio"></div>
+								<div id="sandraBio" class="memberBio">
+									<!-- <img src="" alt="" class="teamImgH"> -->
+									<h3 class="memRole"></h3>
+									<h4 class="memName"></h4>
+									<p class="memText"></p>
+								</div>
 							</div>
-							<div id="intro2">
+							<div id="intro2" class="memberCon">
 								<img src="images/mariam_pic3.jpg" alt="mariam khalifa" id="mariamImg" class="teamImg">
-								<div id="mariamBio"></div>
+								<div id="mariamBio" class="memberBio">
+									<!-- <img src="" alt="" class="teamImgH"> -->
+									<h3 class="memRole"></h3>
+									<h4 class="memName"></h4>
+									<p class="memText"></p>
+								</div>
 							</div>
 						</div>
-						<div class="memberRow">
-							<div id="intro3">
+						<div class="memberRow" class="memberCon">
+							<div id="intro3" class="memberCon">
 								<img src="images/kahani_pic3.jpg" alt="kahani gajjar" id="kahaniImg" class="teamImg">
-								<div id="kahaniBio"></div>
+								<div id="kahaniBio" class="memberBio">
+									<!-- <img src="" alt="" class="teamImgH"> -->
+									<h3 class="memRole"></h3>
+									<h4 class="memName"></h4>
+									<p class="memText"></p>
+								</div>
 							</div>
-							<div id="intro4">
+							<div id="intro4" class="memberCon">
 								<img src="images/luisa_pic3.jpg" alt="luisa valero" id="luisaImg" class="teamImg">
-								<div id="luisaBio"></div>
+								<div id="luisaBio" class="memberBio">
+									<!-- <img src="" alt="" class="teamImgH"> -->
+									<h3 class="memRole"></h3>
+									<h4 class="memName"></h4>
+									<p class="memText"></p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -186,7 +203,7 @@
 						<div class="pjLine"></div>
 						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
-					<img src="images/london_bake_website3.jpg
+					<img src="images/london_baker_website3.jpg
 					" alt="project picture" class="pjImgDT">
 				</div>
 				<div class="pjTextCon">
@@ -261,6 +278,6 @@
 
 	</div>
 
-<script src="js/main.js"></script>
+<script type="module" src="js/main.js"></script>
 </body>
 </html>
