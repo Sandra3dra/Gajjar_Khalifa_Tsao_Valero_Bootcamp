@@ -397,7 +397,7 @@ video {
   margin-left: 10px;
   margin-top: 10px;
   padding-left: 8px;
-  border-bottom: 1px #393760 solid;
+  border-bottom: 1.5px #393760 solid;
 }
 #contactForm .inputField {
   width: 60%;
@@ -411,7 +411,7 @@ video {
   background-color: #ba7485;
   margin-left: 10px;
   margin-top: 10px;
-  border-bottom: 1px #393760 solid;
+  border-bottom: 1.5px #393760 solid;
 }
 #contactForm textarea {
   font-size: 12px;
@@ -419,7 +419,7 @@ video {
   margin-top: 5px;
   padding-top: 5px;
   padding-left: 5px;
-  border: 1px #393760 solid;
+  border: 1.7px #393760 solid;
 }
 
 #submit {
@@ -436,6 +436,28 @@ video {
   #contact {
     display: flex;
     flex-direction: row;
+  }
+  #contact .subLine {
+    width: 50px;
+  }
+  #contact .roseHead {
+    font-size: 28px;
+    padding-top: 5px;
+  }
+
+  #conLine {
+    width: 50px;
+    height: 2px;
+    background-color: #393760;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  #contactForm {
+    width: 50%;
+    border-left: solid 2px #393760;
+    padding-left: 30px;
   }
 }
 #mainFooter {
