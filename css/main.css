@@ -280,12 +280,53 @@ video {
 .memberBio {
   display: none;
   position: relative;
-  top: -350px;
+  top: -180px;
   background-color: rgba(57, 55, 96, 0.5);
-  padding: 20px;
-  border-right: 10px solid #ba7485;
+  padding: 10px;
+  border-right: 15px solid #ba7485;
+  border-left: 15px solid #ba7485;
+}
+.memberBio .memRole {
+  color: #ffffff;
+  font-size: 10px;
+}
+.memberBio .memName {
+  color: #f1c0b3;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.memberBio .memText {
+  color: #fae9e5;
+  font-size: 10px;
+  margin-top: 5px;
+  line-height: 10px;
+  max-width: 210px;
 }
 
+@media screen and (min-width: 399px) {
+  .memberBio {
+    top: -180px;
+    background-color: rgba(57, 55, 96, 0.5);
+    padding: 10px;
+    border-right: 15px solid #ba7485;
+  }
+
+  .memRole {
+    font-size: 12px;
+  }
+
+  .memName {
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .memText {
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 12px;
+    max-width: 300px;
+  }
+}
 @media screen and (min-width: 767px) {
   .memberRow {
     display: flex;
