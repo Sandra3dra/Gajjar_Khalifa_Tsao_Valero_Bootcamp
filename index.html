@@ -19,32 +19,32 @@
 					<a href="https://www.twitter.com/"><img src="images/p_twitter.svg" alt="twitter"></a>
 				</div>
 				<div class="logo"><img src="images/imagina_logo.svg" alt="Imagina Logo"></div>
-			<nav id="mainNav">
-				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#projects">Our Work</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+				<nav id="mainNav">
+					<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Our Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
 		</header>
 		
 		<div id="sections">
 			<section id="home">
 				<div id="topH" class="cols">
-					<video autoplay controls id="video">
-						<source src="media/imagina.mp4" type="video/mp4">
+					<video autoplay loop controls id="video">
+						<source src="media/imagina_video.mp4" type="video/mp4">
 							Sorry, your browser doesn't support embedded videos:(
 					</video>
 					<p id="tagline">You imagine,<br> We create.</p>
 					<div id="videoC" class="rows">
-						<div id="vol">
+						<div id="vol" class="hidden">
 							<img src="images/p_volume_icon.svg" alt="volume icon" id="volume" class="vIcon">
-							<input id="volumeBar" min="0" max="1" step="0.1" type="range">
+							<input class="hidden" id="volumeBar" min="0" max="1" step="0.1" type="range">
 						</div>
 						<img src="images/p_pause_icon.svg" alt="play icon" id="playpause" title="play" class="vIcon">
-						<img src="images/p_reload_icon.svg" alt="rewind icon" id="rewind" class="vIcon">
+						<img src="images/p_reload_icon.svg" alt="rewind icon" id="rewind" class="vIcon hidden">
 					</div>
 				</div>
 				<div id="botH">
@@ -60,7 +60,7 @@
 						</p>
 					</div>
 					<div id="bhR">
-						<img src="images/texture_imagina_logo.jpg" alt="imagina logo on board">
+						<img src="images/texture_imagina_logo3.jpg" alt="imagina logo on board">
 					</div>	
 				</div>
 			</section>
@@ -133,7 +133,7 @@
 					</div>
 					<div class="servDetails">
 							<ul class="cols">
-								<img src="images/design_icon.svg" alt="design services icon" class="servIcon"> 
+								<img src="images/design_icon.svg" alt="design services icon" class="servIcon svi1"> 
 								<h4 class="servSubH">Design</h4>
 								<li>UX/UI Design</li>
 								<li>Art Direction</li>
@@ -142,7 +142,7 @@
 								<li>Motion Design</li>
 							</ul>
 							<ul class="cols"> 
-								<img src="images/branding_icon.svg" alt="design services icon" class="servIcon"> 
+								<img src="images/branding_icon.svg" alt="design services icon" class="servIcon svi2"> 
 								<h4 class="servSubH">Branding</h4>
 								<li>Branding and Positioning</li>
 								<li>SEO Strategy</li>
@@ -151,7 +151,7 @@
 								<li>Roadmapping</li>
 							</ul>
 							<ul class="cols"> 
-								<img src="images/content_icon.svg" alt="design services icon" class="servIcon"> 
+								<img src="images/content_icon.svg" alt="design services icon" class="servIcon svi3"> 
 								<h4 class="servSubH">Content</h4>
 								<li>Content Strategy</li>
 								<li>Copywriting</li>
@@ -160,7 +160,7 @@
 								<li>Brand Positioning</li>
 							</ul>
 							<ul class="cols">
-								<img src="images/development_icon.svg" alt="design services icon" class="servIcon">  
+								<img src="images/development_icon.svg" alt="design services icon" class="servIcon svi4">  
 								<h4 class="servSubH">Development</h4>
 								<li>Web Development</li>
 								<li>Application Development</li>
@@ -182,8 +182,8 @@
 							</div>
 							<h3 class="pinkHead">Healthy Blends.</h3>
 						</div>
-						<img src="images/bottles_juice1.jpg" alt="project picture" class="pjImg">
-						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+						<img src="images/bottles_juice3.jpg" alt="project picture" class="pjImg">
+						<p class="pjDesc">We produced Healthy Blends brand values and a way to encourage and build a healthy community.  Colors inspired by nature are used in the brand and other branding mediums to attract health-conscious community and to build the strength of the community in the future.</p>
 						<div class="pjLine"></div>
 						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"sass></a>
 					</div>
@@ -198,8 +198,8 @@
 							</div>
 							<h3 class="pinkHead">Bakerology London.</h3>
 						</div>
-						<img src="images/london_baker_website1.jpg" alt="project picture" class="pjImg pjImgR">
-						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+						<img src="images/london_baker_website2.jpg" alt="project picture" class="pjImg pjImgR">
+						<p class="pjDesc">Who doesn’t like desserts? For all the dessert lovers, one stop to explore new places and to connect with other sweet tooths. Enhancing the existing brand values of many cafes through one platform.</p>
 						<div class="pjLine"></div>
 						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>
@@ -210,13 +210,13 @@
 					<div class="cols pjText">
 						<div class="cols">
 							<div class="rowsH">
-								<p class="subHead">DEFINES FASION WITH</p>
+								<p class="subHead">DEFINE FASION WITH</p>
 								<div class="pjSubLine"></div>
 							</div>
 							<h3 class="pinkHead">New Muslimash</h3>
 						</div>
-						<img src="images/magazine1.jpg" alt="project picture" class="pjImg">
-						<p class="pjDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+						<img src="images/magazine2.jpg" alt="project picture" class="pjImg">
+						<p class="pjDesc">Trendy Islamic fashion for modern and powerful women. Explore new styles through Muslimash. Branding so chic, just like their collection. Come join us to make a difference in the fashion industry.</p>
 						<div class="pjLine"></div>
 						<a href="feature.html">EXPLORE<img src="images/right_p_arrow.svg" alt="arrow icon" class="rArrow"></a>
 					</div>

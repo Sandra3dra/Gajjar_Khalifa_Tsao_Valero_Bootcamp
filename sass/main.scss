@@ -78,11 +78,12 @@ body {
 .pinkHead {
     color: $imaginaPink;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 25px;
     margin-left: 30px;
     padding-top: 3px; 
-    // padding-right: 30px;
+    margin-right: 30px;
     line-height: 25px;
+    letter-spacing: -1px;
 }
 
 .pinkBox {
@@ -126,4 +127,16 @@ a {
 input, textarea, select {
     border: none;
     font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .pinkHead {
+        font-size: 30px;
+    }
+    .roseHead {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
 }

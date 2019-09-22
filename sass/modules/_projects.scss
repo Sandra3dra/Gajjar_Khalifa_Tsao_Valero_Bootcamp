@@ -1,3 +1,18 @@
+@mixin column(){
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin row(){
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin mar30() {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 #projects {
     margin-top: 60px;
 }
@@ -7,26 +22,32 @@
 }
 
 .pjDesc {
-    margin-left: 40px;
-    // margin-top: 20px;
+    @include mar30;
     margin-bottom: 20px;
-    padding-right: 40px;
 }
 
 .pjText {
     margin-top: 40px;
     a {
-        margin-left: 30px;
+        @include mar30;
+        font-size: 15px;
+        width: 30%;
     }
-}
-
-.pjImg {
-    margin: 20px auto;
+    a:hover {
+        color: $imaginaPink;
+    }
 }
 
 .rArrow {
     width: 15px;
-    margin-left: 10px;
+    margin-left: 5px;
+    // margin-top: 7px;
+}
+
+.pjImg {
+    margin: 30px 10% 30px 10%;
+    width: 80%;
+    // display: flex;
 }
 
 .pjImgDT {
@@ -115,8 +136,3 @@
         }
     }
 }
-
-
-
-
-
