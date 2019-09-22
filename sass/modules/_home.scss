@@ -1,26 +1,105 @@
+@mixin column(){
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin row(){
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin mar30() {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 #home {
-    background-color: $imaginaRose;
+    // background-color: $imaginaRose;
+    // position: 
 }
 
 video {
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+    // display: none;
+    z-index: 0;
+}
+
+#socialHead {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    // margin-left: 20px;
+    img {
+        padding-bottom: 3px;
+        transition: all ease 0.5s;
+    }
+    #fb {
+        width: 9px;
+        margin-left: 5px;
+        // height: 25px;
+    }
+    #inst {
+        width: 18px;
+    }
+    #twi {
+        width: 20px;
+    }
+    img:hover {
+        opacity: 0.5;
+    }
+}
+
+.logo {
+    margin: 0 auto;
+    z-index: 2;
+    img {
+        width: 73px;
+        margin-top: 25px;
+    }
+}
+
+.fade-away {
+    -webkit-animation: fade-away 1s;
+    -webkit-animation-fill-mode: forwards; 
+}
+
+.fade-back {
+    -webkit-animation: fade-back 1s;
+    -webkit-animation-fill-mode: forwards; 
+}
+
+@keyframes fade-away {
+    from {
+        visibility: visible;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+
+@keyframes fade-back {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: visible;
+    }
 }
 
 #tagline {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 13px;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    line-height: 30px;
+    padding-top: 20px;
+    line-height: 15px;
+    z-index: 3;
+    color: #fff;
 }
 
 #videoC {
     margin: 0 auto;
-    padding-bottom: 20px;
+    z-index: 4;
 }
 
 #vol {
@@ -28,37 +107,36 @@ video {
 }
 
 #volumeBar {
-    display: none;
+    width: 70px;
+    margin-bottom: 5px;
 }
 
 .vIcon {
-    width: 30px;
+    width: 20px;
     padding: 5px;
     cursor: pointer;
     transition: all 1s ease;
 }
 
 #botH {
-    padding-top: 60px;
-    background-color: white;
+    margin-top: 20%;
+    @include column;
+}
+
+#bhL {
     .subLine {
         width: 100px;
     }
-}
-
-.brandDesc {
-    padding: 30px;
-}
-
-#botH {
-    display: flex;
-    flex-direction: column;
+    .brandDesc {
+        padding-top: 60%;
+        @include mar30;
+    }
 }
 
 #bhR {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include mar30;
+    position: absolute;
+    margin-top: 70px;
 }
 
 @media screen and (min-width: 767px) {

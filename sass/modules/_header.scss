@@ -1,30 +1,7 @@
 #mainHeader {
     width: 100%;
-    background-color: $imaginaRose;
-    padding-top: 30px; 
-}
-
-#socialHead {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    // margin-left: 20px;
-    img {
-        width: 25px;
-        height: 25px;
-        padding-bottom: 5px;
-        transition: all ease 1s;
-    }
-    img:hover {
-        opacity: .2;
-    }
-}
-
-.logo {
-    margin: 0 auto;
-    img {
-        width: 76px;
-    }
+    // background-color: $imaginaRose;
+    // padding-top: 30px; 
 }
 
 #mainNav {
@@ -32,18 +9,15 @@
     top: 20px;
     right: 20px;
     font-weight: bold;
-    a {
+    z-index: 99;
+    li a{
         border-left: $imaginaPurple 2px solid;
         transition: all 1s ease;
         padding-left: 10px;
     }
-    a:hover {
+    li:hover a {
         color: $imaginaPink;
-    }
-    
-    a:active {
-        border-left: $imaginaPink 2px solid;
-        color: $imaginaPink;
+        font-size: 15px;
     }
 }
 

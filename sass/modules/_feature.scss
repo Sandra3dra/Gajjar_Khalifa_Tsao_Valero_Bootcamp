@@ -13,20 +13,28 @@
     margin-right: 30px;
 }
 
+#hb1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 #featureHead{
-    background-image: url(../images/hb1.jpg) no-repeat;
+    
 }
 
 #hbTop, #hbtopL{
     @include column();
     #hb2 {
-        height: 280px;
-        widows: 260px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
         @include mar30();
     }
 }
 
 #healthyB {
+    margin-top: 60%;
     .subLine{
         display: none;
     }
@@ -48,12 +56,21 @@
         height: 45px;
         border-left: 1px solid #000;
     }
+    .roseHead {
+        margin-left: 0px;
+    }
+}
+
+#scope .roseHead {
+    margin-left: 0px;
 }
 
 #hb3{
-    width: 260px;
-    height: 280px;
+    width: 80%;
+    // height: 280px;
     @include mar30();
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #pjSwitch {
