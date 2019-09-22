@@ -46,6 +46,7 @@
 }
 
 .pjText {
+
     @include column;
     margin-top: 20px;
     a {
@@ -147,14 +148,10 @@
             align-self: flex-start;
         }
     }
+
     .pjImgDT {
         display: flex;
         width: 345px;
     }
     
 }
-
-
-
-
-
