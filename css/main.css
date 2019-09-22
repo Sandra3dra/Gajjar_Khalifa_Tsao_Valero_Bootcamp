@@ -154,6 +154,11 @@ video {
 
 .memberBio {
   display: none;
+  position: relative;
+  top: -350px;
+  background-color: rgba(57, 55, 96, 0.5);
+  padding: 20px;
+  border-right: 10px solid #ba7485;
 }
 
 @media screen and (min-width: 767px) {
@@ -168,11 +173,12 @@ video {
   }
 
   .teamImg {
-    width: 100%;
+    width: 80%;
   }
-
-  .memberBio {
-    display: block;
+}
+@media screen and (min-width: 1065px) {
+  .teamImg {
+    width: 100%;
   }
 }
 #services {
@@ -270,13 +276,13 @@ video {
 }
 
 .pjDesc {
-  margin-left: 30px;
+  margin-left: 40px;
   margin-bottom: 20px;
-  padding-right: 30px;
+  padding-right: 40px;
 }
 
 .pjText {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .pjText a {
   margin-left: 30px;

@@ -21,7 +21,13 @@
 
 .memberBio {
     display: none;
+    position: relative;
+    top: -350px;
+    background-color: rgba($color: $imaginaPurple, $alpha: .5);
+    padding: 20px;
+    border-right: 10px solid $imaginaPink;
 }
+
 
 @media screen and (min-width: 767px) {
     .memberRow {
@@ -33,9 +39,14 @@
         align-items: center;
     }
     .teamImg {
-        width: 100%;
+        width: 80%;
     }
-    .memberBio {
-        display: block;
+
+    
+}
+
+@media screen and (min-width:1065px) {
+    .teamImg {
+        width: 100%;
     }
 }
