@@ -33,7 +33,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $imaginaPink;
-    @include row;
+    @include column;
     justify-content: center;
     .subLine {
         width: 30px;
@@ -60,7 +60,7 @@
 #contactForm {
     margin-top: 40px;
     margin-right: 5%;
-    // margin-left: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     font-size: 12px;
@@ -102,9 +102,9 @@
         margin-top: 5px;
         padding-top: 5px;
         padding-left: 5px;
-        // margin-right: 30px;
+        margin-right: 30px;
         border: 1.7px $imaginaPurple solid;
-        width: 316px;
+        width: 90%;
     }
     #submit {
         border: none; 
@@ -113,7 +113,7 @@
         padding-bottom: 10px;
         margin-left: 0px;
         color: #ffffff;
-        width: 100%;
+        width: 95%;
         // margin-left: 30px;
         // margin-right: 30px;
         background-color: $imaginaPurple;
@@ -122,9 +122,7 @@
 }
 
 #heartI {
-    width: 30%;
-    margin-top: 50px;
-    margin-left: 30px;
+    display: none;
 }
 
 @media screen and (min-width: 767px) {
@@ -153,4 +151,98 @@
         padding-left: 30px;
         font-size: 16px;
     } 
+    #contactForm {
+        margin-top: 40px;
+        margin-right: 5%;
+        // margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        label {
+            color: $imaginaLightRose3;
+            // margin-left: 30px;
+            margin-top: 20px;
+        }
+        input {
+            background-color: $imaginaPink;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding-left: 8px;
+            border-bottom: 1.5px $imaginaPurple solid;
+        }
+        .inputField {
+            width: 60%;
+        }
+        ::placeholder {
+            color: $imaginaPurple;
+        }
+        select {
+            font-size: 12px;
+            // width: 120px;
+            color: $imaginaPurple;
+            background-color: $imaginaPink;
+            margin-left: 10px;
+            margin-top: 10px;
+            border-bottom: 1.5px $imaginaPurple solid;
+            // background-position-x: 100px;
+            // background-size: 20px;
+            // -webkit-appearance: none;
+            // background-image: url(/images/form_arrow.svg);
+        }
+        textarea {
+            font-size: 12px;
+            background-color: $imaginaPink;
+            // margin-left: 30px;
+            margin-top: 5px;
+            padding-top: 5px;
+            padding-left: 5px;
+            // margin-right: 30px;
+            border: 1.7px $imaginaPurple solid;
+            width: 316px;
+        }
+        #submit {
+            border: none; 
+            margin-top: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            color: #ffffff;
+            width: 100%;
+            // margin-left: 30px;
+            // margin-right: 30px;
+            background-color: $imaginaPurple;
+            cursor: pointer;
+        }
+    }
+    #heartI {
+        display: block;
+        width: 30%;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #contactForm {
+        width: 80%;
+        padding-left: 30px;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-right: 100px;
+        textarea {
+            width: 95%;
+        }
+        #submit {
+            width: 95%;
+        }
+    } 
+    #conLeft {
+        width: 950px;
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 1150px) {
+    #conLeft {
+        margin-left: 10%;
+    }
 }

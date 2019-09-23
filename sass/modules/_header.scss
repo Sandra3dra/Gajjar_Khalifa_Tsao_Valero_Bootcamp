@@ -21,3 +21,30 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    #mainNav {
+        font-size: 20px;
+        top: 40px;
+        right: 40px;
+        li {
+            padding-bottom: 8px;
+        }
+        li:hover a {
+            font-size: 23px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #mainNav {
+        font-size: 20px;
+        top: 70px;
+        right: 70px;
+        li {
+            padding-bottom: 8px;
+        }
+        li:hover a {
+            font-size: 23px;
+        }
+    }
+}

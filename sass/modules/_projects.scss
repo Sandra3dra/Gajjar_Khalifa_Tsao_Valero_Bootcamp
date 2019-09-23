@@ -53,9 +53,10 @@
         @include mar30;
         font-size: 15px;
         width: 30%;
+        transition: ease 0.6s all;
     }
-    a:hover {
-        color: $imaginaPink;
+    a:hover img, a:hover{
+        opacity: 0.5;
     }
 }
 
@@ -154,4 +155,39 @@
         width: 345px;
     }
     
+}
+
+@media screen and (min-width: 900px) {
+    .pjImgDT {
+        display: flex;
+        width: 530px;
+    }
+    .pjLine {
+        height: 60px;
+        border-right: 2px solid $imaginaPurple;
+        margin-bottom: 10px;
+    }
+    .ppjjLine {
+        border-left: 2px solid $imaginaPurple;
+        border-right: none;
+    }
+    .pjTextCon .pjText{
+        margin-right: 60px;
+        a {
+            font-size: 18px;
+            width: 100px;
+        }
+    } 
+    #projects div:nth-child(3) {
+        .pjText{
+            margin-left: 60px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1250px) {
+    #projects div:nth-child(3) .pjImgDT {
+        margin-left: 120px;
+    }
 }
