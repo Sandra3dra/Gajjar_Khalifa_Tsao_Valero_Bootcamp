@@ -38,6 +38,11 @@
     }
 }
 
+.teamCon {
+    display: flex;
+    flex-direction: column;
+}
+
 .memberCon {
     display: flex;
     flex-direction: column;
@@ -58,12 +63,26 @@
     border-right: 10px solid $imaginaPink;
 }
 
+@media screen and (min-width: 640px) {
+    .memberRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // @include mar40;
+        width: 100%;
+    }
+}
 
 @media screen and (min-width: 767px) {
     .memberRow {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        // width: 100%;
+    }
+    .memberCol {
+        padding-left: 5%;
+        
     }
     .memberCon {
         align-items: center;
@@ -80,29 +99,21 @@
     }
 }
 
-@media screen and (min-width: 640px) {
-    .memberRow {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        // @include mar40;
-        width: 90%;
+@media screen and (min-width:900px) {
+    .teamImg {
+        width: 425px;
+    }
+    .memberCol {
+        padding-left: 10%;
+        margin-bottom: 40px;
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width:1100px) {
     .teamImg {
-        margin-top: 40px;
-        // @include mar30;
-        width: 330px;
+        width: 525px;
     }
-    .teamImg {
-        width: 80%;
-    }
-}
-
-@media screen and (min-width:1065px) {
-    .teamImg {
-        width: 100%;
+    .memberCol {
+        padding-left: 40px;
     }
 }

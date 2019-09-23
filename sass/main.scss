@@ -132,11 +132,28 @@ input, textarea, select {
 @media screen and (min-width: 768px) {
     .pinkHead {
         font-size: 30px;
+        line-height: 32px;
     }
     .roseHead {
         font-size: 24px;
+        line-height: 27px;
     }
     p {
         font-size: 16px;
+        line-height: 18px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .pinkHead {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .roseHead {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 28px;
     }
 }

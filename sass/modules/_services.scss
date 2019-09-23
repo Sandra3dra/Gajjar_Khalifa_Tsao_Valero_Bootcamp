@@ -101,10 +101,10 @@
         padding-left: 200px;
     }
     .servDetails {
-        grid-template-columns: repeat(4, 1fr);
-        text-align: center;
-        // margin-left: auto;
-        // margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         ul {
             margin-left: auto;
             margin-right: auto;
@@ -128,10 +128,63 @@
 
 }
 
+@media screen and (min-width: 900px) {
+    #services {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+    .servH {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .servDesc {
+        text-align: center;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+    .servDetails {
+        ul {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h4 {
+            font-size: 28px;
+        }
+        li {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .cols {
+            margin-right: 0px;
+            margin-left: 0px;
+            width: 255px;
+        }
+        .servIcon {
+            width: 65px;
+            margin-bottom: 10px;
+        }
+        .svi1 {
+            margin-left: 95px;
+        }
+        .svi2 {
+            margin-left: 100px;
+        }
+        .svi3 {
+            margin-left: 95px;
+        }
+        .svi4 {
+            margin-left: 95px;
+        }
+    }
+    
+    .svi3 {
+        padding-top: 20px;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .servDesc {
         padding-left: 250px;
         padding-right: 250px;
     }
 }
-
