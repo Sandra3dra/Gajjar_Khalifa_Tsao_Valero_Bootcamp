@@ -47,6 +47,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .teamImg {
@@ -56,11 +57,19 @@
 
 .memberBio {
     display: none;
-    position: relative;
-    top: -350px;
-    background-color: rgba($color: $imaginaPurple, $alpha: .5);
-    padding: 20px;
+    position: absolute;
+    width: 75%;
+    bottom: 0;
+    background-color: rgba($color: #fff, $alpha: .6);
+    padding-left: 4px;
+    padding-right: 4px;
     border-right: 10px solid $imaginaPink;
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 640px) {
@@ -70,6 +79,14 @@
         justify-content: space-between;
         // @include mar40;
         width: 100%;
+    }
+    .memberBio {
+        h4 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 13px;
+        }
     }
 }
 
@@ -97,6 +114,14 @@
         // @include mar30;
         width: 260px;
     }
+    .memberBio {
+        h4 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
 }
 
 @media screen and (min-width:900px) {
@@ -106,6 +131,17 @@
     .memberCol {
         padding-left: 10%;
         margin-bottom: 40px;
+    }
+    .memberBio {
+        h3 {
+            font-size: 15px;
+        }
+        h4 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 14px;
+        }
     }
 }
 
