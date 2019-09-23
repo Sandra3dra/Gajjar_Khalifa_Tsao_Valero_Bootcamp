@@ -284,64 +284,69 @@ video {
   }
 }
 @media screen and (min-width: 900px) {
-  #home .logo img {
+  .logo img {
     width: 144px;
     margin-top: 60px;
   }
-  #home #socialHead {
+
+  #socialHead {
     top: 60px;
     left: 60px;
   }
-  #home #socialHead img {
+  #socialHead img {
     padding-bottom: 8px;
   }
-  #home #socialHead #fb {
+  #socialHead #fb {
     width: 13px;
     margin-left: 8px;
   }
-  #home #socialHead #inst {
+  #socialHead #inst {
     width: 27px;
   }
-  #home #socialHead #twi {
+  #socialHead #twi {
     width: 29px;
   }
-  #home #tagline {
+
+  #tagline {
     font-size: 40px;
     padding-top: 130px;
     line-height: 45px;
   }
-  #home #botH {
+
+  #botH {
     display: flex;
     flex-direction: row;
     margin-top: 15%;
     margin-left: 50px;
     margin-right: 50px;
   }
-  #home #botH .subLine {
+  #botH .subLine {
     margin-left: 8px;
     width: 50px;
   }
-  #home #bhL {
+
+  #bhL {
     width: 50%;
     margin-left: 0px;
     margin-right: 0px;
     margin-right: 20px;
   }
-  #home #bhL .brandDesc {
+  #bhL .brandDesc {
     max-width: 450px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 20px;
     width: 80%;
   }
-  #home #bhL .pinkHead, #home #bhL .subHead {
+  #bhL .pinkHead, #bhL .subHead {
     margin-left: 0px;
     margin-right: 0px;
   }
-  #home #bhL .pinkHead {
+  #bhL .pinkHead {
     letter-spacing: -2px;
   }
-  #home #bhR {
+
+  #bhR {
     margin-left: 0px;
     margin-right: 0px;
     width: 50%;
@@ -349,31 +354,35 @@ video {
   }
 }
 @media screen and (min-width: 1100px) {
-  #home .logo img {
+  .logo img {
     margin-top: 70px;
   }
-  #home #tagline {
+
+  #tagline {
     padding-top: 140px;
   }
-  #home #botH {
+
+  #botH {
     margin-top: 25%;
   }
-  #home #botH .subLine {
+  #botH .subLine {
     margin-left: 8px;
     width: 200px;
   }
-  #home #bhL {
+
+  #bhL {
     width: 50%;
     margin-right: 20px;
   }
-  #home #bhL .brandDesc {
+  #bhL .brandDesc {
     max-width: 450px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 30px;
     width: 80%;
   }
-  #home #bhR {
+
+  #bhR {
     width: 50%;
     margin-left: 70px;
   }
@@ -1211,6 +1220,7 @@ video {
   #hb1 {
     visibility: visible;
     position: absolute;
+    width: 100%;
   }
 
   #healthyB {
@@ -1242,6 +1252,58 @@ video {
     margin-left: 0;
     margin-right: 0;
     margin-top: 90px;
+  }
+
+  #hb3 {
+    margin-left: 5%;
+  }
+
+  #pjSwitch #prevPj {
+    display: flex;
+    flex-direction: row;
+  }
+  #pjSwitch #prevPj p {
+    font-size: 15px;
+    margin-top: -8px;
+  }
+  #pjSwitch #prevPj #pjLA {
+    background-image: url(/images/left_p_arrow.svg);
+    background-repeat: no-repeat;
+    width: 15px;
+  }
+  #pjSwitch #prevPj:hover {
+    color: #ba7485;
+  }
+  #pjSwitch #prevPj:hover #pjLA {
+    background-image: url(/images/left_r_arrow.svg);
+    background-repeat: no-repeat;
+  }
+  #pjSwitch #nextPj {
+    display: flex;
+    flex-direction: row;
+  }
+  #pjSwitch #nextPj p {
+    font-size: 15px;
+    margin-top: -8px;
+  }
+  #pjSwitch #nextPj #pjRA {
+    background-image: url(/images/right_p_arrow.svg);
+    background-repeat: no-repeat;
+    width: 15px;
+  }
+  #pjSwitch #nextPj:hover {
+    color: #ba7485;
+  }
+  #pjSwitch #nextPj:hover #pjRA {
+    background-image: url(/images/right_r_arrow.svg);
+    background-repeat: no-repeat;
+  }
+
+  #prevPj img, #nextPj img {
+    width: 13px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 2px;
   }
 }
 html {
