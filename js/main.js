@@ -2,6 +2,9 @@ import Team from './modules/dataObject.js';
 
 (() => {
 
+
+    
+
     // console.log(Team);
 
     let memberBio =  document.querySelectorAll('.memberBio'),  

@@ -268,7 +268,6 @@ video {
 } 
 
 @media screen and (min-width: 900px) {
-    #home {
         .logo {
             img {
                 width: 144px;
@@ -330,10 +329,8 @@ video {
             width: 50%;
             margin-top: 0px;
         }
-    }
 }
 @media screen and (min-width: 1100px) {
-    #home {
         .logo {
             img {
                 margin-top: 70px;
@@ -366,5 +363,4 @@ video {
             margin-left: 70px;
             // margin-top: 0px;
         }
-    }
 }
