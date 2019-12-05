@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 //   });
 
 app.get("/feature.html", (req, res) => {
-    res.sendFile((path.join(__dirname, "../Gajjar_Khalifa_Tsao_Valero_Bootcamp/feature.html")));
+    res.sendFile((path.join(__dirname, "feature.html")));
 })
 
 
