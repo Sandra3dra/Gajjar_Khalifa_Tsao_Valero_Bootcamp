@@ -1,4 +1,4 @@
-import Team from './modules/dataObject.js';
+import Team from '../js/modules/dataObject.js';
 
 (() => {
 
