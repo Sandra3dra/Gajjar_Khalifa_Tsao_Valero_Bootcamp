@@ -1,0 +1,22 @@
+{
+  "name": "testmodules",
+  "version": "1.0.0",
+  "description": "using classes with node and express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "classes",
+    "node",
+    "javascript"
+  ],
+  "author": "Sandra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
