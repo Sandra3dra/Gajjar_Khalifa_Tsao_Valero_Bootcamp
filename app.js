@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.get("/", (req, res) => {
     // res.render("index.html");
     console.log('sent back a static file');
-    res.sendFile((path.join(__dirname, "../index.html")));
+    res.sendFile((path.join(__dirname, "index.html")));
 })
 
 // router.get('/', function(req, res, next) {
