@@ -4,7 +4,7 @@
   "description": "using classes with node and express",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "node app"
   },
   "keywords": [
     "classes",
