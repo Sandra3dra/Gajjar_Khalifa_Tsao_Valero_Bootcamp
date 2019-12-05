@@ -1,5 +1,5 @@
 # Bootcamp
-![Imagina Logo](/images/imagina_logo_tagline.svg)
+![Imagina Logo](/public/images/imagina_logo_tagline.svg)
 
 ## Imagina
 You Imagine, We Create.
